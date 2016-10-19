@@ -46,8 +46,7 @@ public class Pokemon {
         this.HP = HP;
     }
     public String Datos() {
-        return "Pokemon{" +
-                "Nombre='" + nombre + ", Ataque=" + ataque + ", Defensa=" + defensa + ", HP=" + HP + '}';
+        return "Nombre=" + nombre + ", Ataque=" + ataque + ", Defensa=" + defensa + ", HP=" + HP + ", ";
     }
     
 }

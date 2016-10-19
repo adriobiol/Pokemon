@@ -10,6 +10,12 @@ public class main {
         PokemonFuego Typhlosion = new PokemonFuego("Typhlosion", 47, 41, 87);
         PokemonAgua Croconaw = new PokemonAgua("Croconaw", 26, 17, 59);
         Encostipat pocho = new Encostipat("Resfriado");
+        System.out.println(Sceptile.Datos());
+        System.out.println(Combusken.Datos());
+        System.out.println(Mudkip.Datos());
+        System.out.println(Chikorita.Datos());
+        System.out.println(Typhlosion.Datos());
+        System.out.println(Croconaw.Datos());
         ArrayList<Capturable> pokimons = new ArrayList<>();
         pokimons.add(Sceptile);
         pokimons.add(Combusken);
@@ -19,7 +25,6 @@ public class main {
         pokimons.add(Croconaw);
         pokimons.add(pocho);
         for (int i=0; i<pokimons.size();i++){
-            System.out.println(pokimons.get(i));
             if (pokimons.get(i).capturar()){
                 System.out.println("Has capturado a " + pokimons.get(i).info());
             }else{

@@ -27,7 +27,7 @@ public class Encostipat implements Capturable {
             return false;
     }
     public String Datos() {
-        return "Resfriado (" + "Nombre='" + nombre + ')';
+        return ("Resfriado (" + "Nombre= " + nombre);
     }
 
 }

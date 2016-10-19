@@ -28,6 +28,6 @@ public class PokemonFuego extends Pokemon implements Capturable {
     }
     @Override
     public String Datos() {
-        return super.toString() + " Tipo planta(" + "Tipo='" + tipo + ", Elicaz='" + eficaz + ", Ineficaz='" + ineficaz + ") " ;
+         return super.Datos() + "Tipo=" + tipo + ", Elicaz=" + eficaz + ", Ineficaz=" + ineficaz;
     }
 }
