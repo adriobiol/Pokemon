@@ -27,7 +27,8 @@ public class PokemonAgua extends Pokemon implements Capturable {
         return this.getNombre();
     }
     @Override
-    public String Datos() {
-         return super.Datos() + "Tipo=" + tipo + ", Elicaz=" + eficaz + ", Ineficaz=" + ineficaz;
+    public String toString() {
+        return "PokemonAgua{" + "tipo=" + tipo + ", eficaz=" + eficaz + ", ineficaz=" + ineficaz + '}';
     }
+
 }

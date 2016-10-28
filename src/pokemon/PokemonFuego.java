@@ -26,8 +26,10 @@ public class PokemonFuego extends Pokemon implements Capturable {
     public String info() {
         return this.getNombre();
     }
+
     @Override
-    public String Datos() {
-         return super.Datos() + "Tipo=" + tipo + ", Elicaz=" + eficaz + ", Ineficaz=" + ineficaz;
+    public String toString() {
+        return "PokemonFuego{" + "tipo=" + tipo + ", eficaz=" + eficaz + ", ineficaz=" + ineficaz + '}';
     }
+
 }

@@ -45,8 +45,11 @@ public class Pokemon {
     public void setHP(int HP) {
         this.HP = HP;
     }
-    public String Datos() {
-        return "Nombre=" + nombre + ", Ataque=" + ataque + ", Defensa=" + defensa + ", HP=" + HP + ", ";
+
+    @Override
+    public String toString() {
+        return "Pokemon{" + "nombre=" + nombre + ", ataque=" + ataque + ", defensa=" + defensa + ", HP=" + HP + '}';
     }
+    
     
 }
